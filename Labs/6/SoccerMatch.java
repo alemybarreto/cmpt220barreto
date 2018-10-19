@@ -21,7 +21,7 @@ public class SoccerMatch {
 		
 	}
 	
-	public SoccerMatch(Date startTime, String hoem, String visitor) {
+	public SoccerMatch(Date startTime, String home, String visitor) {
 		this.startTime = startTime;
 		this.home = home;
 		this.visitor = visitor;
