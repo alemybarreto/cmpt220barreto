@@ -1,6 +1,5 @@
 package Lab6;
 
-
 class MySquare {
 	double width = 1;
 	
@@ -18,9 +17,6 @@ class MySquare {
 		printPerimeter(secondSquare.width, secondSquare.getPerimeter());
 		
 	}
-	
-	
-		
 		public double getArea() {
 			return width * width;
 		}
