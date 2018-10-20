@@ -14,7 +14,7 @@ public class SoccerMatchTestMain {
 		Player visitor = new Player();
 		visitor.setName("Brian");
 		visitor.setTeam("Fordham");
-		match.addVisitorPlayer(visitor);
+		SoccerMatch.addVisitorPlayer(visitor);
 			
 		Goal number = new Goal(89, player);
 		match.addHomeGoal(number);
